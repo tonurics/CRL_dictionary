@@ -93,6 +93,7 @@ var dictionaryapi_dev={
 					}
 					input.value='';
 					input.disabled=false;
+					input.focus();
 					input.nextElementSibling.disabled=false;
 					input.nextElementSibling.innerHTML='Lookup';
 				}
